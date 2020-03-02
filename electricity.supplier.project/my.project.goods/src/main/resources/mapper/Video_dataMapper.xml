@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zb.mapper.Video_dataMapper">
+
+    <select id="getVideo_DataByPage" resultType="com.zb.pojo.Video_data">
+        SELECT   d.*,t.typeVideoName
+        FROM video_data d
+        INNER JOIN videotype t ON d.typeId = t.typeId
+        WHERE 1=1
+        <if test="videoTitle != null and videoTitle != ''">
+            AND d.videoTitle LIKE CONCAT('%',#{videoTitle},'%')
+        </if>
+        <if test="typeId != null and typeId != 0">
+            AND t.typeId = #{typeId}
+        </if>
+        LIMIT #{from},#{pageSize}
+    </select>
+
+    <select id="getVideo_DataByCount" resultType="int">
+        SELECT   count(1)
+        FROM video_data d
+        INNER JOIN videotype t ON d.typeId = t.typeId
+        WHERE 1=1
+        <if test="videoTitle != null and videoTitle != ''">
+            AND d.videoTitle LIKE CONCAT('%',#{videoTitle},'%')
+        </if>
+        <if test="typeId != null and typeId != 0">
+            AND t.typeId = #{typeId}
+        </if>
+    </select>
+
+    <select id="getByVideoTypeId" resultType="com.zb.pojo.Video_data">
+        select * from video_data where id = #{id}
+    </select>
+
+    <select id="getSelBy" resultType="com.zb.pojo.Videoaddress">
+        select * from videoaddress where videoTypeId = #{videoTypeId}
+    </select>
+</mapper>

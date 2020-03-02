@@ -9,6 +9,8 @@
         <module>my.project.common.api</module>
         <module>my.project.eureka</module>
         <module>my.project.gateway</module>
+        <module>my.project.goods</module>
+        <module>my.project.goods.api</module>
     </modules>
 
     <parent>
@@ -36,16 +38,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.48</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
