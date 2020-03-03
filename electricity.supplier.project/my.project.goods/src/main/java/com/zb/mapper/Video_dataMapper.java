@@ -43,4 +43,11 @@ public interface Video_dataMapper {
      * @return
      */
     List<Videoaddress> getSelBy(@Param("videoTypeId")Integer videoTypeId);
+
+    /**
+     * 根据Id修改浏览次 没浏览一次+1
+     * @param id
+     * @return
+     */
+    int BrowseUpdate(@Param("id")Integer id);
 }

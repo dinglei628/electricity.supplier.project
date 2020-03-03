@@ -14,4 +14,6 @@ public interface Video_dataService {
 
     List<Videoaddress> getSelBy(Integer videoTypeId);
 
+    int BrowseUpdate(Integer id);
+
 }

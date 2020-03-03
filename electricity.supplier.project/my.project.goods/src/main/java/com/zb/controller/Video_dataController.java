@@ -32,6 +32,9 @@ public class Video_dataController {
     public List<Videoaddress> getById(@RequestParam("id")Integer id){
         //根据商品编号查询商品，为获取视频属于的值然后查询视频地址遍历集合
         Video_data byVideoTypeId = video_dataService.getByVideoTypeId(id);
+        //浏览次数+1
+        video_dataService.BrowseUpdate(id);
+        //查询商品地址集合
         List<Videoaddress> selBy = video_dataService.getSelBy(byVideoTypeId.getVideoTypeId());
         return selBy;
     }

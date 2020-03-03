@@ -16,6 +16,7 @@
         <if test="typeId != null and typeId != 0">
             AND t.typeId = #{typeId}
         </if>
+        ORDER BY d.uploadTime DESC
         LIMIT #{from},#{pageSize}
     </select>
 
@@ -39,4 +40,8 @@
     <select id="getSelBy" resultType="com.zb.pojo.Videoaddress">
         select * from videoaddress where videoTypeId = #{videoTypeId}
     </select>
+
+    <update id="BrowseUpdate" parameterType="int">
+        UPDATE video_data SET browseCount = browseCount + 1 WHERE id = #{id}
+    </update>
 </mapper>

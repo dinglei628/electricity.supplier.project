@@ -37,4 +37,9 @@ public class Video_dataServiceImpl implements Video_dataService {
     public List<Videoaddress> getSelBy(Integer videoTypeId) {
         return video_dataMapper.getSelBy(videoTypeId);
     }
+
+    @Override
+    public int BrowseUpdate(Integer id) {
+        return video_dataMapper.BrowseUpdate(id);
+    }
 }
