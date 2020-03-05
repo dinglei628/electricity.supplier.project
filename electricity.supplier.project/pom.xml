@@ -9,6 +9,8 @@
         <module>my.project.common.api</module>
         <module>my.project.eureka</module>
         <module>my.project.gateway</module>
+        <module>my.project.user</module>
+        <module>my.project.user.api</module>
     </modules>
 
     <parent>
@@ -54,14 +56,6 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 
     <dependencyManagement>
