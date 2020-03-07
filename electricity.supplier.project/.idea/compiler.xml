@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="my.project.common.api" />
-        <module name="my.project.common" />
         <module name="my.project.gateway" />
+        <module name="my.project.user" />
+        <module name="my.project.user.api" />
+        <module name="my.project.common" />
         <module name="my.project.eureka" />
       </profile>
     </annotationProcessing>
