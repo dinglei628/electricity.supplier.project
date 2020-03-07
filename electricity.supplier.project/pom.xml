@@ -9,6 +9,8 @@
         <module>my.project.common.api</module>
         <module>my.project.eureka</module>
         <module>my.project.gateway</module>
+        <module>my.project.order</module>
+        <module>my.project.order.api</module>
     </modules>
 
     <parent>
