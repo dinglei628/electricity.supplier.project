@@ -11,4 +11,3 @@ public class MyEurekaServerApp {
         SpringApplication.run(MyEurekaServerApp.class,args);
     }
 }
-//sssss
