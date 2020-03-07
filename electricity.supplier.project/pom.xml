@@ -11,8 +11,6 @@
         <module>my.project.gateway</module>
         <module>my.project.user</module>
         <module>my.project.user.api</module>
-        <module>my.project.good</module>
-        <module>my.project.good.api</module>
     </modules>
 
     <parent>
