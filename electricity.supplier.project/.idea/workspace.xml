@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8e50e52-aa70-46a6-8763-54e8e77f6b77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/electricity.supplier.project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/util/SendUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/my.project.user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/MyUserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/RegisterRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/my.project.common.api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/IdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common/my.project.common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/my.project.eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JetBrains\Maven\repository" />
+        <option name="userSettingsFile" value="D:\JetBrains\Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YhrGzwcFt3SmfWzD2RrnttBiwk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my.project.user/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23858447" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zb.util" />
+      <recent name="com.zb.config" />
+      <recent name="com.zb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MyUserAPp">
+    <configuration name="SendUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zb.SendUtil" />
+      <module name="my.project.user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyEurekaServerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my.project.eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.MyEurekaServerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyGatWayServerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my.project.gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.MyGatWayServerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyUserAPp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my.project.user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.MyUserApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SendUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:my_user@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8e50e52-aa70-46a6-8763-54e8e77f6b77" name="Default Changelist" comment="" />
+      <created>1583405576016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583405576016</updated>
+      <workItem from="1583405577383" duration="11994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Project_Structure" timestamp="1583406525138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406525138" />
+    <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583407687419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583407687419" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583409211546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583409211546" />
+    <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583408362544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583408362544" />
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583406326462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406326462" />
+    <state x="617" y="283" key="FileChooserDialogImpl" timestamp="1583408298720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="283" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583408298720" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1583418838007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state x="340" y="170" key="SettingsEditor" timestamp="1583406284069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="340" y="170" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406284069" />
+    <state x="334" y="228" key="new project wizard" timestamp="1583407777398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="228" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583407777398" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1583413874151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583413874151" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583413850443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583413850443" />
+  </component>
+</project>
