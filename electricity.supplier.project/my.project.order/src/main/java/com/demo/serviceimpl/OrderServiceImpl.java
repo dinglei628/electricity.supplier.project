@@ -26,7 +26,7 @@ import java.util.UUID;
 @RestController
 public class OrderServiceImpl implements OrderService {
 
-    @Autowired
+    @Autowired(required = false)
     private OrderMapper orderMapper;
 
     @Autowired
@@ -79,8 +79,10 @@ public class OrderServiceImpl implements OrderService {
         orderVo.setOid(IdWorker.getId());
         orderVo.setUid(userId);
         orderVo.setGid(goodsId);
-        String orderToken = ORDER_TOKEN;
-        if (redisUtil.set("order_token:"+orderToken, JSON.toJSONString(orderVo), 60 * 10)) {
+        orderVo.setPrice(88.56f);
+        orderVo.setOrderName("购买课程");
+        String orderToken = UUID.randomUUID().toString()+System.currentTimeMillis();
+        if (redisUtil.set("order_token:"+orderToken, JSON.toJSONString(orderVo))) {
             rabbitTemplate.setConfirmCallback(confirmCallback);
             rabbitTemplate.setReturnCallback(returnCallback);
             CorrelationData correlationData = new CorrelationData(orderToken);

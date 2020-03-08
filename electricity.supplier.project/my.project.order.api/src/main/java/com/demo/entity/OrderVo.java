@@ -8,5 +8,7 @@ public class OrderVo implements Serializable {
     private String oid;
     private String uid;
     private String gid;
+    private Float price;
+    private String OrderName;
 
 }

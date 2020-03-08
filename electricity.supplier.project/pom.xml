@@ -13,6 +13,8 @@
         <module>my.project.order.api</module>
         <module>my.project.user</module>
         <module>my.project.user.api</module>
+        <module>my.project.pay.api</module>
+        <module>my.project.pay</module>
     </modules>
 
     <parent>

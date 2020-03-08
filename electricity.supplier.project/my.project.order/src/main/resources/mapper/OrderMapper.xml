@@ -8,6 +8,7 @@
     <insert id="addOrder">
         INSERT INTO order.order_info
             (id,
+            orderName,
             userId,
             goodId,
             STATUS,
@@ -17,6 +18,7 @@
             )
             VALUES
             (#{id},
+            #{orderName},
             #{userId},
             #{goodId},
             #{status},
