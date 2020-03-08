@@ -1,5 +1,6 @@
 package com.zb.service;
 
+import com.zb.dto.Dto;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public interface UserRegisterService {
@@ -11,6 +12,15 @@ public interface UserRegisterService {
      * @return
      */
     void sendCode(String phoneNumber);
+
+    /**
+     * 注冊
+     *
+     * @param phone
+     * @param code
+     * @return
+     */
+    Dto register(String phone, String pwd, String code);
 
 
 }

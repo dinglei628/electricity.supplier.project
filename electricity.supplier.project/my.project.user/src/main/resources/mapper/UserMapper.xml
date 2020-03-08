@@ -23,7 +23,32 @@
     QQId, picSrc
   </sql>
 
+    <insert id="addUserByPhone">
 
+    insert  into user values (#{id},#{phone},default,#{phonestate},default,#{username},#{userpwd},default,default,#{permsg},#{vxid},#{qqid},#{picsrc})
 
+    </insert>
 
+    <select id="getUserByPhone" resultType="com.zb.entity.User">
+
+        select * from user where phone=#{phone};
+
+    </select>
+
+    <update id="updateUserInfoByPhone" parameterType="com.zb.entity.User">
+        update `my_user`.`user`
+        set
+        `userName` = #{username},
+        `age` = #{age},
+        `sex` = #{sex},
+        `perMsg` = #{permsg}
+        <!--lolwww 认证服务有了以后手机号码换成 id-->
+        where phone=#{phone}
+    </update>
+
+    <update id="updatePirSrc">
+        update  `my_user`.`user`
+        set  picSrc=#{src}
+        where id=#{id};
+    </update>
 </mapper>

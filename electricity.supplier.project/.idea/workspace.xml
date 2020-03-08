@@ -2,32 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e50e52-aa70-46a6-8763-54e8e77f6b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/electricity.supplier.project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user.api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/util/SendUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/my.project.user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/MyUserApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/RegisterRabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/Curriculum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/util/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/FileUploadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/CurriculumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/CurriculumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/CurriculumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserSerciceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/errorCode.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/mapper/CurriculumMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/my.project.common.api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/MD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/RedisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/my.project.common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/my.project.eureka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f0b22704-bdd7-4f79-b63f-c10887847f95.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f0b22704-bdd7-4f79-b63f-c10887847f95.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/my.project.common.api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/my.project.common.api-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common/target/my.project.common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common/target/my.project.common-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/classes/com/zb/MyEurekaServerApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/my.project.eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/classes/com/zb/MyGatWayServerApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/classes/com/zb/filter/PowerFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/my.project.gateway-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/classes/META-INF/my.project.user.api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/util/SendUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/util/SendUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/my.project.user.api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/META-INF/my.project.user.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserRegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserRegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserRegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserRegisterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/my.project.user-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +88,29 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_user@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_user@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_user@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_user: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Mapper" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -104,15 +164,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zb.util" />
+      <recent name="com.zb.service" />
+      <recent name="com.zb.controller" />
       <recent name="com.zb.config" />
+      <recent name="com.zb.util" />
       <recent name="com.zb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\resources" />
+      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\java\com\zb\service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyUserAPp">
+  <component name="RunManager" selected="Spring Boot.MyEurekaServerApp">
     <configuration name="SendUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zb.SendUtil" />
       <module name="my.project.user" />
@@ -158,12 +221,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:my_user@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -180,12 +238,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583405576016</updated>
-      <workItem from="1583405577383" duration="11994000" />
+      <workItem from="1583405577383" duration="12292000" />
+      <workItem from="1583647358279" duration="12565000" />
     </task>
+    <task id="LOCAL-00001" summary="修改父项目 多余插件依赖&#10;删除common md5类和idworker 多余main方法&#10;新增用户模块&#10;新增用户api模块&#10;用户模块添加跟 据手机号  异步发送消息 并存到redis 设置有效期为五分钟">
+      <created>1583419129540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583419129540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改父项目 多余插件依赖&#10;删除common md5类和idworker 多余main方法&#10;新增用户模块&#10;新增用户api模块&#10;用户模块添加跟 据手机号  异步发送消息 并存到redis 设置有效期为五分钟" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改父项目 多余插件依赖&#10;删除common md5类和idworker 多余main方法&#10;新增用户模块&#10;新增用户api模块&#10;用户模块添加跟 据手机号  异步发送消息 并存到redis 设置有效期为五分钟" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Project_Structure" timestamp="1583406525138">
@@ -196,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583407687419" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583409211546">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583665340080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583409211546" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665340080" />
     <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583408362544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,57 +279,81 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406326462" />
+    <state x="705" y="387" width="510" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583648377899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="387" width="510" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583648377899" />
+    <state x="354" y="118" width="1470" height="877" key="CommitChangelistDialog2" timestamp="1583419127725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="354" y="118" width="1470" height="877" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583419127725" />
+    <state x="184" y="92" key="DiffContextDialog" timestamp="1583418954303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="92" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418954303" />
     <state x="617" y="283" key="FileChooserDialogImpl" timestamp="1583408298720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="617" y="283" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583408298720" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.0.bottom" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.0.center" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.0.left" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.0.right" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.1.bottom" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.1.center" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.1.left" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
-    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1583418838007">
+    <state width="1761" height="257" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
+    <state width="1761" height="257" key="GridCell.Tab.1.right" timestamp="1583665704063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418838007" />
+    <state width="1761" height="257" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
     <state x="340" y="170" key="SettingsEditor" timestamp="1583406284069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="340" y="170" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406284069" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583419149236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583419149236" />
+    <state x="624" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583665059187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665059187" />
     <state x="334" y="228" key="new project wizard" timestamp="1583407777398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="228" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583407777398" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1583413874151">
+    <state x="595" y="176" key="refactoring.ChangeSignatureDialog" timestamp="1583665520564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583413874151" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583413850443">
+    <state x="595" y="176" key="refactoring.ChangeSignatureDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665520564" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1583660798784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583413850443" />
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583660798784" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583665649585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665649585" />
   </component>
 </project>

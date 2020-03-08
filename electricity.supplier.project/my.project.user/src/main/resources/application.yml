@@ -39,3 +39,10 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+#qiniu:
+#  accessKey: I28MGxt7-AYzfWc5ILIy3MD1auRPFKGevVOGanzf
+#  secretKey: T4MfoawTbymIaGfLGZGf2WDqyyS7sVxQHz5by6V0
+#  bucket: hqhtes
+#  path: http://q6nfm4v00:bkt:clouddn:com
