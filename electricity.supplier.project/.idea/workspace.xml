@@ -1,34 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e50e52-aa70-46a6-8763-54e8e77f6b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/electricity.supplier.project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user.api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/util/SendUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/my.project.user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/MyUserApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/RegisterRabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="b629ba62-666b-436b-8de8-adcacb5a6b7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/config/DruidDatasourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/entity/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/serivce/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/my.project.pay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/src/main/java/com/demo/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/src/main/java/com/demo/callbackService/PayCallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/src/main/java/com/demo/mapper/PayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/src/main/java/com/demo/serviceImpl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.pay/src/main/resources/mapper/PayMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/my.project.common.api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/MD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/util/RedisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/my.project.common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/my.project.eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/entity/OrderVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/entity/OrderVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/src/main/java/com/demo/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/config/RabbitConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/config/RabbitConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/entity/OrderVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/entity/OrderVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order.api/target/classes/com/demo/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order/src/main/java/com/demo/mq/OrderMq.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order/src/main/java/com/demo/mq/OrderMq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order/src/main/java/com/demo/serviceimpl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order/src/main/java/com/demo/serviceimpl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order/target/classes/com/demo/mq/OrderMq.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order/target/classes/com/demo/mq/OrderMq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order/target/classes/com/demo/serviceimpl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order/target/classes/com/demo/serviceimpl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.order/target/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.order/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/my.project.user.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +64,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="my mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -67,8 +80,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\JetBrains\Maven\repository" />
-        <option name="userSettingsFile" value="D:\JetBrains\Maven\settings.xml" />
+        <option name="localRepository" value="D:\maven\apache-maven-3.6.2\mavenRepository" />
+        <option name="userSettingsFile" value="C:\Users\52812\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -93,10 +106,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my.project.user/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my.project.pay.api/src/main/java/com/demo/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.23858447" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -104,15 +123,31 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.config" />
+      <recent name="com.demo.utils" />
       <recent name="com.zb.util" />
       <recent name="com.zb.config" />
       <recent name="com.zb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\electricity.supplier.project\electricity.supplier.project\my.project.pay.api\src\main\java\com\demo\config" />
+      <recent name="F:\electricity.supplier.project\electricity.supplier.project\my.project.pay\src\main\resources" />
       <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyUserAPp">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="SendUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zb.SendUtil" />
       <module name="my.project.user" />
@@ -122,6 +157,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="my.project.pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my.project.order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,43 +204,41 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Application.SendUtil" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:my_user@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8e50e52-aa70-46a6-8763-54e8e77f6b77" name="Default Changelist" comment="" />
+      <changelist id="b629ba62-666b-436b-8de8-adcacb5a6b7e" name="Default Changelist" comment="" />
       <created>1583405576016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583405576016</updated>
       <workItem from="1583405577383" duration="11994000" />
+      <workItem from="1583633605611" duration="22944000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Project_Structure" timestamp="1583406525138">

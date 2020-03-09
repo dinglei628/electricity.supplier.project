@@ -25,8 +25,6 @@ public interface OrderService {
     String ERROR_ORDER_NOT = "10003";
     String ERROR_ORDER_REPEAT = "10004";
     String ERROR_ORDER_NON_EXISTENT = "10006";
-    //redis订单令牌
-    String ORDER_TOKEN = UUID.randomUUID().toString()+System.currentTimeMillis();
 
     @PostMapping("/createOrder")
     Dto createOrder(@RequestParam(value = "token") String token,
