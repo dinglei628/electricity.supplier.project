@@ -82,7 +82,7 @@ public class OrderServiceImpl implements OrderService {
         orderVo.setPrice(88.56f);
         orderVo.setOrderName("购买课程");
         String orderToken = UUID.randomUUID().toString()+System.currentTimeMillis();
-        if (redisUtil.set("order_token:"+orderToken, JSON.toJSONString(orderVo))) {
+        if (redisUtil.set("order_token:"+orderToken, JSON.toJSONString(orderVo),60*10)) {
             rabbitTemplate.setConfirmCallback(confirmCallback);
             rabbitTemplate.setReturnCallback(returnCallback);
             CorrelationData correlationData = new CorrelationData(orderToken);
@@ -122,5 +122,14 @@ public class OrderServiceImpl implements OrderService {
         return DtoUtil.returnSuccess("success", page);
     }
 
+    @Override
+    public void changeOrder(@RequestParam(value = "id") String id,@RequestParam(value = "status") Integer status,@RequestParam(value = "payTime") String payTime) {
+        System.err.println("修改订单信息------------------->"+id);
+        Integer result = orderMapper.updateOrderstatus(id, status,payTime);
+        if(result > 0){
+            System.err.println("------------------->修改成功");
+            rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_TOPIC_HISTORY, "history.add",id);
+        }
+    }
 
 }

@@ -4,6 +4,7 @@ import com.alipay.api.internal.util.AlipaySignature;
 import com.demo.config.AlipayConfig;
 import com.demo.config.RabbitConfig;
 import com.demo.entity.Pay;
+import com.demo.feign.OrderFeignClient;
 import com.demo.mapper.PayMapper;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,9 +24,9 @@ public class PayCallbackService {
 
     @Autowired(required = false)
     private PayMapper payMapper;
-
     @Autowired
-    private RabbitTemplate rabbitTemplate;
+    private OrderFeignClient orderFeignClient;
+
     @RequestMapping("/mynotifyurl")
     public void mynotifyurl(HttpServletRequest request, HttpServletResponse response) throws Exception {
         System.err.println("---------------------->执行异步回调");
@@ -66,7 +67,7 @@ public class PayCallbackService {
         boolean verify_result = AlipaySignature.rsaCheckV1(params, AlipayConfig.ALIPAY_PUBLIC_KEY, AlipayConfig.CHARSET, "RSA2");
 
         if (verify_result) {//验证成功
-            if(payMapper.getPayByOrderId(trade_no) == 0){
+            if (payMapper.getPayById(trade_no) == 0) {
                 System.err.println("------------------->添加支付信息");
                 Pay pay = new Pay();
                 pay.setId(trade_no);
@@ -90,14 +91,17 @@ public class PayCallbackService {
                 //如果有做过处理，不执行商户的业务程序
                 //注意：
                 //如果签约的是可退款协议，那么付款完成后，支付宝系统发送该交易状态通知。
+
                 //如果用户已经支付成功，就直接返回success
-                if(payMapper.getPayByOrderIdAndStatus(trade_no,"666") > 0){
+                if (payMapper.getPayByIdAndStatus(trade_no, "666") > 0) {
                     System.err.println("------------------->用户已经支付成功");
                     out.println("success");
                 }
                 System.err.println("------------------->修改支付信息");
-                payMapper.updatePayInfo("666",gmt_payment,trade_no);
-                rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_TOPIC_PAY, "pay.update",out_trade_no);
+                payMapper.updatePayInfo("666", gmt_payment, trade_no);
+                System.err.println("--------------->修改订单信息");
+                orderFeignClient.changeOrder(out_trade_no,1,gmt_payment);
+
             }
             //——请根据您的业务逻辑来编写程序（以上代码仅作参考）——
             out.println("success");    //请不要修改或删除

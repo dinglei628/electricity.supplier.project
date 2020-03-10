@@ -30,9 +30,18 @@
     <update id="updateOrderstatus">
          UPDATE order.order_info
             SET
-            STATUS = #{status}
+            STATUS = #{status},
+            updateDate = NOW(),
+            payTime = #{payTime}
             WHERE
             id = #{id};
+    </update>
+    <update id="delOrder">
+        UPDATE order.order_info
+            SET
+            deleteDate = NOW()
+            WHERE
+            id = #{id} ;
     </update>
     <select id="getOrderbyCondition" resultType="com.demo.entity.Order">
         SELECT * FROM order_info
@@ -72,6 +81,14 @@
     </select>
     <select id="getOrderByUserIdCount" resultType="java.lang.Integer">
         SELECT count(1) FROM order_info WHERE userId = #{uid}
+    </select>
+    <select id="getById" resultType="com.demo.entity.Order">
+        select * from order_info where id = #{id}
+    </select>
+    <select id="getAwaitOrder" resultType="com.demo.entity.Order">
+        SELECT * FROM order_info
+            WHERE TIMESTAMPDIFF(MINUTE,createDate, NOW())>10
+            AND deleteDate IS NULL
     </select>
 
 

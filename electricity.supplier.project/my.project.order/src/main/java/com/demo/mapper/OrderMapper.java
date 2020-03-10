@@ -23,6 +23,11 @@ public interface OrderMapper {
 
     Integer getOrderByUserIdCount(@Param("uid") String uid);
 
-    Integer updateOrderstatus(@Param("id") String id,@Param("status") Integer status);
+    Integer updateOrderstatus(@Param("id") String id,@Param("status") Integer status,@Param("payTime") String payTime);
 
+    Order getById(@Param("id") String id);
+
+    Integer delOrder(@Param("id") String id);
+
+    List<Order> getAwaitOrder();
 }
