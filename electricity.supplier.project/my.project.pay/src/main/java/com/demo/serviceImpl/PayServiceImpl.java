@@ -8,12 +8,15 @@ import com.alipay.api.domain.AlipayTradeWapPayModel;
 import com.alipay.api.request.AlipayTradeWapPayRequest;
 import com.demo.config.AlipayConfig;
 import com.demo.entity.OrderVo;
+import com.demo.entity.Pay;
+import com.demo.mapper.PayMapper;
 import com.demo.serivce.PayService;
 import com.demo.utils.RedisUtil;
 import com.zb.dto.Dto;
 import com.zb.dto.DtoUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -25,8 +28,11 @@ public class PayServiceImpl implements PayService {
     @Autowired
     private RedisUtil redisUtil;
 
+    @Autowired(required = false)
+    private PayMapper payMapper;
+
     @Override
-    public Dto pay(@PathVariable("payToken") String payToken, HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public Dto pay(@PathVariable("payToken") String payToken, HttpServletRequest request,HttpServletResponse response) throws Exception {
         if (payToken == null) {
             return DtoUtil.returnFail("支付令牌不能为空", ERROR_TOKEN_NOT);
         }
@@ -85,4 +91,16 @@ public class PayServiceImpl implements PayService {
 
         return null;
     }
+
+    @Override
+    public Integer getPayExist(@PathVariable(value = "oId")String oId) {
+        return payMapper.getPayByOrderId(oId);
+    }
+
+    @Override
+    public Pay getIsPay(@PathVariable(value = "oId")String oId) {
+        return payMapper.isPay(oId);
+    }
+
+
 }

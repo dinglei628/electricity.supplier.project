@@ -34,27 +34,27 @@ public class RabbitConfig {
     }
 
 
-    //支付的MQ
-    public static final String QUEUE_PAY = "pay_queue";
+    //历史订单表
+    public static final String QUEUE_HISTORY = "history_queue";
 
-    public static final String EXCHANGE_TOPIC_PAY = "exchange_topic_pay";
+    public static final String EXCHANGE_TOPIC_HISTORY = "exchange_topic_history";
 
 
-    @Bean(EXCHANGE_TOPIC_PAY)
+    @Bean(EXCHANGE_TOPIC_HISTORY)
     public Exchange createPayExchange() {
-        return ExchangeBuilder.topicExchange(EXCHANGE_TOPIC_PAY).durable(true).build();
+        return ExchangeBuilder.topicExchange(EXCHANGE_TOPIC_HISTORY).durable(true).build();
     }
 
-    @Bean(QUEUE_PAY)
+    @Bean(QUEUE_HISTORY)
     public Queue createPayQueue() {
-        Queue queue = new Queue(QUEUE_PAY);
+        Queue queue = new Queue(QUEUE_HISTORY);
         return queue;
     }
 
 
     @Bean
-    public Binding bindingPay(@Qualifier(EXCHANGE_TOPIC_PAY) Exchange exchange, @Qualifier(QUEUE_PAY) Queue queue) {
-        return BindingBuilder.bind(queue).to(exchange).with("pay.*").noargs();
+    public Binding bindingPay(@Qualifier(EXCHANGE_TOPIC_HISTORY) Exchange exchange, @Qualifier(QUEUE_HISTORY) Queue queue) {
+        return BindingBuilder.bind(queue).to(exchange).with("history.*").noargs();
     }
 
 

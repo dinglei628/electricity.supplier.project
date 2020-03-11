@@ -3,10 +3,7 @@ package com.demo.service;
 import com.demo.entity.Order;
 import com.zb.dto.Dto;
 import com.zb.dto.DtoUtil;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import javax.xml.crypto.Data;
 import java.util.Date;
@@ -42,4 +39,8 @@ public interface OrderService {
                              @RequestParam(value = "endDate",required = false)String endDate,
                              @RequestParam(value = "pageIndex",defaultValue = "1") Integer pageIndex,
                              @RequestParam(value = "pageSize",defaultValue = "5") Integer pageSize);
+
+
+    @PostMapping("/changeOrder")
+    void changeOrder(@RequestParam(value = "id") String id,@RequestParam(value = "status") Integer status,@RequestParam(value = "payTime") String payTime);
 }
