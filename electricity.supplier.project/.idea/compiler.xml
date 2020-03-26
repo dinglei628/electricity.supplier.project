@@ -14,7 +14,6 @@
         <module name="my.project.qg_good" />
         <module name="my.project.user.api" />
         <module name="my.project.good.api" />
-        <module name="my.project.user" />
         <module name="my.project.common" />
         <module name="my.project.auth2.api" />
         <module name="my.project.good" />
