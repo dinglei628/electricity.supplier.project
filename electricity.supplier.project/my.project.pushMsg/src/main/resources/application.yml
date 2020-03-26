@@ -1,5 +1,5 @@
 server:
-  port: 10002
+  port: 10003
 eureka:
   client:
     service-url:
@@ -8,10 +8,10 @@ eureka:
     prefer-ip-address: true
 spring:
   application:
-    name: PAY
+    name: PUSHMSG
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/pay?useSSL=false
+    url: jdbc:mysql://localhost:3306/pushmsg?useSSL=false
     username: root
     password: ok
     type: com.alibaba.druid.pool.DruidDataSource
@@ -45,11 +45,25 @@ spring:
     password: ok
     host: localhost
     port: 6379
+  mail:
+    host: smtp.163.com
+    username: zhou528120@163.com
+    password: zhou528120
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+  com.demo.mapper: debug
 #消息模板
 msg:
   ordertemplate: 恭喜您的账户：{},已成功购买商品[]!
   membertemplate: 恭喜您的账户：{},成为会员!
   systemtemplate: 恭喜您的账户：{},注册成功!
-

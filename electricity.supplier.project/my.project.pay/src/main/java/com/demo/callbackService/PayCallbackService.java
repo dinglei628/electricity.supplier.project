@@ -1,13 +1,18 @@
 package com.demo.callbackService;
 
+import com.alibaba.fastjson.JSON;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.demo.config.AlipayConfig;
+import com.demo.config.Constants;
 import com.demo.config.RabbitConfig;
+import com.demo.entity.Order;
 import com.demo.entity.Pay;
 import com.demo.feign.OrderFeignClient;
 import com.demo.mapper.PayMapper;
+import com.zb.dto.Dto;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,6 +22,7 @@ import java.io.PrintWriter;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @RestController
@@ -26,6 +32,12 @@ public class PayCallbackService {
     private PayMapper payMapper;
     @Autowired
     private OrderFeignClient orderFeignClient;
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
+
+    @Value("${msg.ordertemplate}")
+    private String msgTemplate;
 
     @RequestMapping("/mynotifyurl")
     public void mynotifyurl(HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -102,6 +114,15 @@ public class PayCallbackService {
                 System.err.println("--------------->修改订单信息");
                 orderFeignClient.changeOrder(out_trade_no,1,gmt_payment);
 
+                //封装json推送支付成功的消息
+                LinkedHashMap<String, Object> map = new LinkedHashMap<>();
+                Dto dto = orderFeignClient.getOrderById(out_trade_no);
+                Order order = (Order) dto.getData();
+                map.put("uId", order.getUserId());
+                String msgDescribe = msgTemplate.replace("{}","小明").replace("[]","AA");
+                map.put("describe", msgDescribe);
+                map.put("type",Constants.ORDER_MSG);
+                rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_TOPIC_MSG, "msg.send", JSON.toJSONString(map));
             }
             //——请根据您的业务逻辑来编写程序（以上代码仅作参考）——
             out.println("success");    //请不要修改或删除

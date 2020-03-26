@@ -92,6 +92,12 @@ public class OrderServiceImpl implements OrderService {
         return DtoUtil.returnFail("创建订单失败", ERROR);
     }
 
+    @Override
+    public Dto getOrderById(@PathVariable("id") String id) {
+        Order order = orderMapper.getById(id);
+        return DtoUtil.returnSuccess("success",order);
+    }
+
 
     @Override
     public Dto searchOrder(@PathVariable("token") String token,
