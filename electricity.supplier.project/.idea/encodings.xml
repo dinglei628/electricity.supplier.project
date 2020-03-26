@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my.project.auth2.api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my.project.auth2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.common.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.common.api/src/main/java" charset="UTF-8" />
@@ -10,6 +12,10 @@
     <file url="file://$PROJECT_DIR$/my.project.eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my.project.good.api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my.project.good/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my.project.qg_good.api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my.project.qg_good/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.user.api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my.project.user/src/main/java" charset="UTF-8" />
   </component>

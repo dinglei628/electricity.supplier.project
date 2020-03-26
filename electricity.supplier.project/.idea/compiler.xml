@@ -7,12 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="my.project.common.api" />
+        <module name="my.project.auth2" />
+        <module name="test" />
+        <module name="my.project.qg_good.api" />
         <module name="my.project.gateway" />
+        <module name="my.project.qg_good" />
         <module name="my.project.user.api" />
+        <module name="my.project.good.api" />
         <module name="my.project.user" />
         <module name="my.project.common" />
+        <module name="my.project.auth2.api" />
+        <module name="my.project.good" />
         <module name="my.project.eureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

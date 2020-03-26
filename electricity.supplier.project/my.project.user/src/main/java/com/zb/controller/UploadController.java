@@ -29,7 +29,7 @@ public class UploadController {
     private UserService userService;
 
     @PostMapping("/changeImg")
-    public Dto singleFileUpload(HttpServletRequest request, @RequestParam(required = false, value = "files") MultipartFile[] files) {
+    public Dto singleFileUpload(HttpServletRequest request, @RequestParam(required = false, value = "files") MultipartFile[] files, String token) {
         for (MultipartFile file : files) {
             if (Objects.isNull(file) || file.isEmpty()) {
                 return DtoUtil.returnFail("文件为空，请重新上传", "8006");
@@ -67,9 +67,8 @@ public class UploadController {
                 DefaultPutRet putRet = new Gson().fromJson(response.bodyString(), DefaultPutRet.class);
                 // System.out.println(putRet.key);//这个就是从七牛云获取的文件名
                 /// lolwww
-                String id = "754118266611306496";
                 //putRet.key
-                Integer integer = userService.updatePirSrc(putRet.key, id);
+                Integer integer = userService.updatePirSrc(putRet.key, token);
 
                 ///
 

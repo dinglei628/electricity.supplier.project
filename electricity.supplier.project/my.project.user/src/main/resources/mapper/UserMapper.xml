@@ -34,21 +34,29 @@
         select * from user where phone=#{phone};
 
     </select>
+    <select id="getUserById" resultType="com.zb.entity.User">
+        select * from user where id=#{id};
+    </select>
 
-    <update id="updateUserInfoByPhone" parameterType="com.zb.entity.User">
+    <update id="updateUserInfoById" parameterType="com.zb.entity.User">
         update `my_user`.`user`
         set
         `userName` = #{username},
         `age` = #{age},
         `sex` = #{sex},
         `perMsg` = #{permsg}
-        <!--lolwww 认证服务有了以后手机号码换成 id-->
-        where phone=#{phone}
+        where id=#{id}
     </update>
 
     <update id="updatePirSrc">
         update  `my_user`.`user`
         set  picSrc=#{src}
         where id=#{id};
+    </update>
+
+    <update id="updatePassword">
+        update  `my_user`.`user`
+        set  userPwd=#{password}
+        where id=#{id}
     </update>
 </mapper>

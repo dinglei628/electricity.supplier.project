@@ -2,75 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e50e52-aa70-46a6-8763-54e8e77f6b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/Curriculum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/util/PageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/FileUploadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/CurriculumMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/CurriculumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/CurriculumServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserSerciceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/errorCode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/mapper/CurriculumMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2.api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2.api/src/main/java/com/zb/feign/AuthFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/my.project.auth2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/Auth2App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/config/CustomUserAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/config/myCORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/entity/UserJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/java/com/zb/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.auth2/src/main/resources/xc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/token/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/src/main/java/com/zb/pojo/Video_data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/src/main/java/com/zb/pojo/Videoaddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/src/main/java/com/zb/pojo/Videotype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/target/classes/com/zb/pojo/Video_data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/target/classes/com/zb/pojo/Videoaddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good.api/target/classes/com/zb/pojo/Videotype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/MyGoodApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/config/FileUploadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/controller/GoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/mapper/GoodMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/mapper/videoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/service/GoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/service/impl/GoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/java/com/zb/service/impl/UploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/resources/mapper/GoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/resources/mapper/videoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/resources/static/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/MyGoodApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/config/FileUploadConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/controller/GoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/controller/ViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/mapper/GoodMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/mapper/videoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/service/GoodService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/service/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/service/impl/GoodServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/com/zb/service/impl/UploadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/mapper/GoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/mapper/videoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/static/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.good/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/src/main/java/com/zb/pojo/qg_good_end.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/src/main/java/com/zb/pojo/qg_good_infrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/src/main/java/com/zb/vo/GoodsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/src/main/java/com/zb/vo/MqMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/target/classes/com/zb/pojo/qg_good_end.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/target/classes/com/zb/pojo/qg_good_infrom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/target/classes/com/zb/vo/GoodsVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good.api/target/classes/com/zb/vo/MqMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/MyQgGoodServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/controller/QgGoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/mapper/QgGoodInendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/mapper/QgGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/service/QgGoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/java/com/zb/service/impl/QgGoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/resources/mapper/QgGoodInendMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/src/main/resources/mapper/QgGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/MyQgGoodServerApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/config/RabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/controller/QgGoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/mapper/QgGoodInendMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/mapper/QgGoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/service/QgGoodService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/com/zb/service/impl/QgGoodServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/mapper/QgGoodInendMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.qg_good/target/classes/mapper/QgGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/feign/UserFeignClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/NettyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/config/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/constant/MessageCodeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/constant/WebSocketConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/handler/WebSocketChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/handler/WebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/MessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/model/WebSocketMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/WebSocketInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/util/DateFormatUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/util/WebSocketUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f0b22704-bdd7-4f79-b63f-c10887847f95.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f0b22704-bdd7-4f79-b63f-c10887847f95.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/my.project.common.api-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common.api/target/my.project.common.api-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/target/my.project.common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.common/target/my.project.common-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/classes/com/zb/MyEurekaServerApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.eureka/target/my.project.eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/classes/com/zb/MyGatWayServerApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/classes/com/zb/filter/PowerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.gateway/target/my.project.gateway-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/classes/META-INF/my.project.user.api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/util/SendUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/util/SendUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/my.project.user.api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.common.api/src/main/java/com/zb/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/src/main/java/com/zb/MyEurekaServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.eureka/src/main/java/com/zb/MyEurekaServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/Curriculum.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/Curriculum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/src/main/java/com/zb/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/entity/Curriculum.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/entity/Curriculum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user.api/target/classes/com/zb/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my.project.user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/MyUserApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/MyUserApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/controller/UserRegisterController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserLoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserRegisterServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserSerciceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/Impl/UserSerciceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserRegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/java/com/zb/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/src/main/resources/errorCode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/errorCode.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my.project.user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/META-INF/my.project.user.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserRegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserRegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/MyUserApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/MyUserApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/controller/UserRegisterController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserRegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserRegisterServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UploadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserLoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserRegisterServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserSerciceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/Impl/UserSerciceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserLoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserRegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/com/zb/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/errorCode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/errorCode.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my.project.user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.project.user/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.project.user/target/my.project.user-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +186,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="electricity.supplier.project" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,7 +236,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my.project.user/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23858447" />
@@ -164,27 +247,56 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zb.service" />
-      <recent name="com.zb.controller" />
       <recent name="com.zb.config" />
-      <recent name="com.zb.util" />
       <recent name="com.zb" />
+      <recent name="com.zb.entity" />
+      <recent name="com.zb.token" />
+      <recent name="com.zb.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\resources" />
+      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project" />
+      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\java\com\zb" />
       <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.user\src\main\java\com\zb\service" />
+      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\test\src\main\resources" />
+      <recent name="D:\JetBrains\gitHub\项目\electricity.supplier.project\electricity.supplier.project\my.project.auth2\src\main\java\com\zb\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyEurekaServerApp">
+  <component name="RunManager" selected="Spring Boot.MyUserAPp">
+    <configuration name="AuthorizationServerConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zb.config.AuthorizationServerConfig" />
+      <module name="my.project.auth2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SendUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zb.SendUtil" />
       <module name="my.project.user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zb.*" />
+          <option name="PATTERN" value="com.zb.feign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Auth2App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="my.project.auth2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.Auth2App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,8 +322,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="my.project.user.api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Auth2App" />
+        <item itemvalue="Spring Boot.Test" />
+        <item itemvalue="Spring Boot.test" />
+        <item itemvalue="Application.AuthorizationServerConfig" />
         <item itemvalue="Application.SendUtil" />
       </list>
     </recent_temporary>
@@ -239,7 +381,16 @@
       <option name="presentableId" value="Default" />
       <updated>1583405576016</updated>
       <workItem from="1583405577383" duration="12292000" />
-      <workItem from="1583647358279" duration="12565000" />
+      <workItem from="1583647358279" duration="13743000" />
+      <workItem from="1583817305635" duration="2377000" />
+      <workItem from="1583999250023" duration="3485000" />
+      <workItem from="1584282480778" duration="2691000" />
+      <workItem from="1584516225072" duration="23292000" />
+      <workItem from="1584542854481" duration="16537000" />
+      <workItem from="1584671817418" duration="12868000" />
+      <workItem from="1584755393292" duration="9533000" />
+      <workItem from="1584864433725" duration="3370000" />
+      <workItem from="1585037918621" duration="11942000" />
     </task>
     <task id="LOCAL-00001" summary="修改父项目 多余插件依赖&#10;删除common md5类和idworker 多余main方法&#10;新增用户模块&#10;新增用户api模块&#10;用户模块添加跟 据手机号  异步发送消息 并存到redis 设置有效期为五分钟">
       <created>1583419129540</created>
@@ -248,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583419129540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改头像 上传头像 修改个人信息&#10;分页查看课程">
+      <created>1583665990334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583665990334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,25 +414,36 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改父项目 多余插件依赖&#10;删除common md5类和idworker 多余main方法&#10;新增用户模块&#10;新增用户api模块&#10;用户模块添加跟 据手机号  异步发送消息 并存到redis 设置有效期为五分钟" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改父项目 多余插件依赖&#10;删除common md5类和idworker 多余main方法&#10;新增用户模块&#10;新增用户api模块&#10;用户模块添加跟 据手机号  异步发送消息 并存到redis 设置有效期为五分钟" />
+    <MESSAGE value="修改头像 上传头像 修改个人信息&#10;分页查看课程" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改头像 上传头像 修改个人信息&#10;分页查看课程" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="182" key="#Project_Structure" timestamp="1583406525138">
+    <state x="552" y="182" key="#Inspections" timestamp="1584763881732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="182" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406525138" />
+    <state x="552" y="182" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584763881732" />
+    <state x="552" y="182" key="#Project_Structure" timestamp="1584627565123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584627565123" />
+    <state x="552" y="182" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584010725031" />
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583407687419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583407687419" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583665340080">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1584692377118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665340080" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584692377118" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584283486389" />
     <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583408362544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="301" key="#com.intellij.ide.util.PackageChooserDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583408362544" />
+    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584603033305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584603033305" />
     <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583406326462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,77 +452,131 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="387" width="510" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583648377899" />
-    <state x="354" y="118" width="1470" height="877" key="CommitChangelistDialog2" timestamp="1583419127725">
+    <state x="584" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584526011484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="354" y="118" width="1470" height="877" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583419127725" />
+    <state x="584" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584526011484" />
+    <state x="584" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584284664458" />
+    <state x="354" y="118" width="1470" height="877" key="CommitChangelistDialog2" timestamp="1583665988784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="354" y="118" width="1470" height="877" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665988784" />
+    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1584521640274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="460" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1584521640274" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1583418954303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583418954303" />
-    <state x="617" y="283" key="FileChooserDialogImpl" timestamp="1583408298720">
+    <state x="617" y="283" key="FileChooserDialogImpl" timestamp="1584887875895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="617" y="283" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583408298720" />
-    <state width="1761" height="257" key="GridCell.Tab.0.bottom" timestamp="1583665704063">
+    <state x="617" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584887875895" />
+    <state x="617" y="283" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584000959211" />
+    <state width="1655" height="203" key="GridCell.Tab.0.bottom" timestamp="1585040241992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.0.center" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241992" />
+    <state width="1567" height="165" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1655" height="203" key="GridCell.Tab.0.center" timestamp="1585040241992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.0.left" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241992" />
+    <state width="1567" height="165" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1655" height="203" key="GridCell.Tab.0.left" timestamp="1585040241992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.0.right" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241992" />
+    <state width="1567" height="165" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1655" height="203" key="GridCell.Tab.0.right" timestamp="1585040241992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.1.bottom" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241992" />
+    <state width="1567" height="165" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1655" height="203" key="GridCell.Tab.1.bottom" timestamp="1585040241993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.1.center" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241993" />
+    <state width="1567" height="165" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175053" />
+    <state width="1655" height="203" key="GridCell.Tab.1.center" timestamp="1585040241993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.1.left" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241993" />
+    <state width="1567" height="165" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1655" height="203" key="GridCell.Tab.1.left" timestamp="1585040241992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state width="1761" height="257" key="GridCell.Tab.1.right" timestamp="1583665704063">
+    <state width="1655" height="203" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241992" />
+    <state width="1567" height="165" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1655" height="203" key="GridCell.Tab.1.right" timestamp="1585040241993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1761" height="257" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665704063" />
-    <state x="340" y="170" key="SettingsEditor" timestamp="1583406284069">
+    <state width="1655" height="203" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585040241993" />
+    <state width="1567" height="165" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175052" />
+    <state width="1877" height="374" key="GridCell.Tab.2.bottom" timestamp="1584628000375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="374" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584628000375" />
+    <state width="1877" height="374" key="GridCell.Tab.2.center" timestamp="1584628000375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584628000375" />
+    <state width="1877" height="374" key="GridCell.Tab.2.left" timestamp="1584628000375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584628000375" />
+    <state width="1877" height="374" key="GridCell.Tab.2.right" timestamp="1584628000375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584628000375" />
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1584524215851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584524215851" />
+    <state x="340" y="170" key="SettingsEditor" timestamp="1584516714651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="340" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584516714651" />
     <state x="340" y="170" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406284069" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583419149236">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583666008372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583419149236" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583666008372" />
+    <state x="644" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1584864662422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="371" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584864662421" />
+    <state x="644" y="371" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584000796353" />
     <state x="624" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583665059187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665059187" />
-    <state x="334" y="228" key="new project wizard" timestamp="1583407777398">
+    <state x="170" y="198" key="new project wizard" timestamp="1584625617234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="228" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583407777398" />
+    <state x="170" y="198" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584625617234" />
+    <state x="334" y="228" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584010585671" />
     <state x="595" y="176" key="refactoring.ChangeSignatureDialog" timestamp="1583665520564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="176" key="refactoring.ChangeSignatureDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665520564" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1583660798784">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1585040201847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585040201847" />
     <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583660798784" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583665649585">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585038331013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585038331013" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583665649585" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((FeignInvocationHandler)this.h).target" custom="java.lang.reflect.Proxy,feign.ReflectiveFeign.FeignInvocationHandler" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

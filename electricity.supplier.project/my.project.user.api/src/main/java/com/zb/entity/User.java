@@ -2,8 +2,10 @@ package com.zb.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class User {
+public class User implements Serializable {
     /**
      * 编号
      */

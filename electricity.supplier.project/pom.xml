@@ -11,7 +11,14 @@
         <module>my.project.gateway</module>
         <module>my.project.user</module>
         <module>my.project.user.api</module>
+        <module>my.project.auth2</module>
+        <module>my.project.auth2.api</module>
+        <module>my.project.good</module>
+        <module>my.project.good.api</module>
+        <module>my.project.qg_good</module>
+        <module>my.project.qg_good.api</module>
     </modules>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>

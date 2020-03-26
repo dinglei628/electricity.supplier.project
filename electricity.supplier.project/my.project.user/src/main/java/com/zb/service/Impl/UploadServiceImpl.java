@@ -25,10 +25,8 @@ public class UploadServiceImpl implements UploadService, InitializingBean {
     private Auth auth;
     @Value("${qiniu.bucket}")
     private String bucket;
-
     private StringMap putPolicy;
     String key = null;
-
     @Override
     public Response uploadFile(File file) throws QiniuException {
         Response response = this.uploadManager.put(file, key, getUploadToken());

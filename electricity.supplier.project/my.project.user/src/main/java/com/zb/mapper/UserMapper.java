@@ -1,6 +1,7 @@
 package com.zb.mapper;
 
 import com.zb.entity.User;
+import io.swagger.models.auth.In;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -11,9 +12,13 @@ public interface UserMapper {
 
     User getUserByPhone(String phone);
 
-    Integer updateUserInfoByPhone(User user);
+    Integer updateUserInfoById(User user);
 
     Integer updatePirSrc(@Param("src") String src, @Param("id") String id);
+
+    Integer updatePassword(@Param("password") String password, @Param("id") String id);
+
+    User getUserById(@Param("id") String id);
 
 
 }
