@@ -42,4 +42,37 @@
     <select id="getHisOrderByUserIdCount" resultType="java.lang.Integer">
          SELECT count(1) FROM order_history WHERE userId = #{uId}
     </select>
+    <select id="getHisOrderbyCondition" resultType="com.demo.entity.History">
+        SELECT * FROM order_history
+        <where>
+            <if test="uid != null and uid != ''">
+                and userId = #{uid}
+            </if>
+            <if test="gid != null and gid != ''">
+                and goodId = #{gid}
+            </if>
+            <if test="startDate != null and startDate != ''">
+                and createDate Between #{startDate} and #{endDate}
+            </if>
+        </where>
+        ORDER BY createDate DESC
+        LIMIT #{from},#{pageSize}
+    </select>
+    <select id="getHisOrderbyConditionCount" resultType="java.lang.Integer">
+        SELECT count(1) FROM order_history
+        <where>
+            <if test="uid != null and uid != ''">
+                and userId = #{uid}
+            </if>
+            <if test="gid != null and gid != ''">
+                and goodId = #{gid}
+            </if>
+            <if test="startDate != null and startDate != ''">
+                and createDate Between #{startDate} and #{endDate}
+            </if>
+        </where>
+    </select>
+    <select id="getById" resultType="com.demo.entity.History">
+        SELECT * FROM order_history where id = #{id}
+    </select>
 </mapper>
